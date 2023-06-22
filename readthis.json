@@ -1,0 +1,10 @@
+{
+	"title": "Read This",
+	"description": "I learned a lot!",
+	"installation": "You need to download the repo..... to have all the files and folders, etc.",
+	"usage": "By using the integrated terminal.",
+	"credits": "Listing a million collaborators here tbh",
+	"license": "MIT License",
+	"contribution": "n/a",
+	"tests": "n/a"
+}
