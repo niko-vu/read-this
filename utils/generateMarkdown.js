@@ -1,14 +1,10 @@
 // WHEN I choose a license for my application from a list of options
 // THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-// WHEN I enter my GitHub username
-// THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-// WHEN I enter my email address
-// THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return 
+  return ``
 }
 
 // TODO: Create a function that returns the license link
@@ -50,7 +46,10 @@ function generateMarkdown(data) {
   ${data.contribution}
   ## Tests
   ${data.tests}
+  ## Questions
+  If you have any questions, please reach me at my [GitHub account](https://github.com/${data.username}) or at my email (${data.email}).
   `;
+  //with instructions on how to reach me with additional questions
 }
 
 module.exports = generateMarkdown;

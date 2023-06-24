@@ -14,7 +14,7 @@ function generateMarkdown(data) {
   ${data.installation}
   ## Usage
   ${data.usage}
-  ![Screenrecording of the application.](/assets/screenrecording.webm)
+  ![Screenrecording of the application.](./assets/screenrecording.webm)
   ## Credits
   ${data.credits}
   ## License
