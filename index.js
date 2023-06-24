@@ -21,18 +21,22 @@ const questions = [
         // Contribution guidelines questions[6]
     'Write examples on how to run tests (if applicable).',
         // Test instructions questions[7]
+    'Enter your GitHub username.',
+        // Username questions[8]
+    'Enter your email address.'
+        // Email questions[9]
 ];
 
 // TODO: Create a function to write README file
 
-function writeToFile(fileName, data) {
-    const readme = 'README';
+function writeToFile(data) {
+    const readme = 'generatedREADME';
     const filename = `${readme}.md`;
 
     // fs.writeFile('README.md', generateMarkdown(data), (err) => err ? console.log(err) : console.log('Success!')
     // );
 
-    fs.writeFile(filename, (data, generateMarkdown), (err) => err ? console.log(err) : console.log('Success!')
+    fs.writeFile(filename, generateMarkdown(data), (err) => err ? console.log(err) : console.log('Success!')
     );
 }
 
@@ -80,13 +84,23 @@ function init() {
             name: 'tests',
             message: questions[7],
         },
+        {
+            type: 'input',
+            name: 'username',
+            message: questions[8],
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: questions[9],
+        },
     ])
 
     .then((data) => {
-        const filename = `${data.title.toLowerCase().split(' ').join('')}.json`;
+        const filename = `${data.username.toLowerCase().split(' ').join('')}.json`;
         fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) => err ? console.log(err) : console.log('Success!')
         );
-        writeToFile();
+        writeToFile(data);
     });
 }
 
