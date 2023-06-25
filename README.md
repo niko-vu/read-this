@@ -26,7 +26,7 @@ Clone the repository and discard the example files you don't need (niko-vu.json 
 
 The deployed application should look something like this:
 
-![Screenshot of the application.](/assets/screenrecording.gif)
+![Screenshot of the application.](./assets/screenrecordingGif.gif)
 [Click this for the screenrecording of the application as a video.](https://github.com/niko-vu/read-this/blob/main/assets/screenrecording.webm)
 
 ## Credits
