@@ -36,7 +36,7 @@ The deployed application should look something like this:
 
 * I referenced this [Professional README Guide tutorial](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) for the structure of my README and the generateMarkdown.js file I modified.
 
-* I did not author the starter code and I cloned it from the repository, [potential-enigma]([https://github.com/coding-boot-camp/friendly-parakeet](https://github.com/coding-boot-camp/potential-enigma)). This starter code can be found throughout my generateMarkdown.js and index.js files.
+* I did not author the starter code and I cloned it from the repository, [potential-enigma](https://github.com/coding-boot-camp/potential-enigma). This starter code can be found throughout my generateMarkdown.js and index.js files.
 
 * I referenced this [Node.js tutorial](https://nodejs.dev/en/learn/writing-files-with-nodejs/) when writing my functions.
 
